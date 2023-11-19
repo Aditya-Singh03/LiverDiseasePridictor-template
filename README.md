@@ -1,1 +1,1 @@
-# rap-project
+# A machine learning liver prediction model trained from a public dataset released by hospitals. This model predicts if a patient is prone to a serious liver disease by analysing the patients medical data.  
