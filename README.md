@@ -43,7 +43,7 @@ The ILPD is sourced from the UCI Machine Learning Repository. It comprises 583 i
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/Aditya-Singh03/indian-liver-patient-analysis.git
+git clone https://github.com/Aditya-Singh03/LiverDiseasePridictor.git
 ```
 2. **Install Dependencies:**
 ```bash
