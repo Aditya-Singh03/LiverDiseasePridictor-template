@@ -43,7 +43,7 @@ The ILPD is sourced from the UCI Machine Learning Repository. It comprises 583 i
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/<your_username>/indian-liver-patient-analysis.git
+git clone https://github.com/Aditya-Singh03/indian-liver-patient-analysis.git
 ```
 2. **Install Dependencies:**
 ```bash
@@ -51,7 +51,7 @@ pip install pandas seaborn matplotlib numpy scikit-learn imblearn xgboost tensor
 ```
 3. **Run the script:**
 ```bash
-python liver_disease_prediction.py
+python LiverPredictionModel.py
 ```
 This will execute the analysis and prediction process.
 
