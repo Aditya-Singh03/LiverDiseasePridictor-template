@@ -150,38 +150,3 @@ print("Accuracy is ", model.score(testing_features, testing_labels))
 
 accuracy_score(training_labels, model.predict(training_features))
 
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import models, layers
-
-model = keras.Sequential([
-
-    keras.layers.Flatten(input_shape=(10,)),
-
-    keras.layers.Dense(16, activation=tf.nn.relu),
-
-    keras.layers.Dense(16, activation=tf.nn.relu),
-
-    keras.layers.Dense(1, activation=tf.nn.sigmoid),
-
-])
-opt = keras.optimizers.Adam(learning_rate=1e-5)
-
-model.compile(optimizer = opt, loss = 'binary_crossentropy', metrics = ['accuracy'])
-
-# Fitting the ANN to the Training set
-model.fit(training_features, training_labels, batch_size = 10, epochs = 100)
-
-training_features[0]
-
-training_labels = training_labels.astype(float)
-
-score, acc = model.evaluate(testing_features, testing_labels,
-                            batch_size=10)
-print('Test score:', score)
-print('Test accuracy:', acc)
-
-training_labels
-
-model.predict(testing_features)
-
